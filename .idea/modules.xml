@@ -3,11 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/openjpeg/openjpeg.iml" filepath="$PROJECT_DIR$/openjpeg/openjpeg.iml" />
-      <module fileurl="file://$PROJECT_DIR$/openjpeg/openjpeg.iml" filepath="$PROJECT_DIR$/openjpeg/openjpeg.iml" />
-      <module fileurl="file://$PROJECT_DIR$/openjpegandroid.iml" filepath="$PROJECT_DIR$/openjpegandroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/openjpegandroid.iml" filepath="$PROJECT_DIR$/openjpegandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openjpegAndroid.iml" filepath="$PROJECT_DIR$/openjpegAndroid.iml" />
     </modules>
   </component>
 </project>

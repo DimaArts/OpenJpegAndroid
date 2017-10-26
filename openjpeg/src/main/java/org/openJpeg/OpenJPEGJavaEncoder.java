@@ -40,15 +40,7 @@ public class OpenJPEGJavaEncoder {
 
     static
     {
-    	if (!isInitialized) {
-    		try {
-				System.loadLibrary("openjpeg");
-    			isInitialized = true;
-    		} catch (Throwable t) {
-    			t.printStackTrace();
-    			throw new ExceptionInInitializerError("OpenJPEG Java Encoder: probably impossible to find the C library");
-    		}
-    	}
+		LibraryInitializer.initializeLibrary();
     }
 
     public long encodeImageToJ2K(String[] parameters) {

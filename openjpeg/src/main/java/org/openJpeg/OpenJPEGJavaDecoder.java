@@ -35,18 +35,11 @@ import java.util.Vector;
  */
 public class OpenJPEGJavaDecoder {
 
-    private static boolean isInitialized = false;
+
 
     static
     {
-    	if (!isInitialized) {
-    		try {
-    			System.loadLibrary("openjpeg");
-    			isInitialized = true;
-    		} catch (Throwable t) {
-    			throw new ExceptionInInitializerError("OpenJPEG Java Decoder: probably impossible to find the C library");
-    		}
-    	}
+		LibraryInitializer.initializeLibrary();
     }
 
     /** 
